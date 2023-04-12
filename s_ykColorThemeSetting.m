@@ -3,6 +3,10 @@
  
 % lu: 230412
 
+%% addpath
+pth = 'D:\OneDrive - Imperial College London\Proj\IcProj\';
+addpath(genpath(pth));
+
 %% Change the color theme
 
 addpath('./schemes');  
@@ -21,3 +25,6 @@ addpath('./schemes');
 schemer_import('default.prf');
 
 rmpath('./schemes');
+
+%% rmpath
+rmpath(genpath(pth));
