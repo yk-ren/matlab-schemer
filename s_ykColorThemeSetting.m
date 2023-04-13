@@ -27,4 +27,4 @@ rmpath('./schemes');
 % rmpath('./schemes');
 
 %% rmpath
-rmpath(genpath(pth));
+rmpath(genpath(pth)); 
